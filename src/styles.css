@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #eaf5f9; /* Light Tiffany Blue background */
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #0abab5; /* Tiffany Blue */
+  font-weight: bold;
+}
+
+h3 {
+  color: #006a6f; /* Dark Tiffany Blue for subsections */
+  text-align: center;
+}
+
+/* Button Styles */
+button {
+  background-color: #0abab5; /* Tiffany Blue */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a8888; /* Darker shade on hover */
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #0abab5;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+nav button {
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Exercise Form */
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 14px;
+}
+
+form input,
+form select {
+  font-size: 16px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Workout History */
+ul {
+  list-style-type: none;
+  margin-top: 30px;
+}
+
+ul li {
+  background-color: #ffffff;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+ul li strong {
+  color: #0abab5; /* Tiffany Blue for exercise names */
+}
+
+/* Goal Section */
+.goal-section {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.goal-section label {
+  font-size: 16px;
+  color: #006a6f;
+}
+
+.goal-section input {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.goal-section button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  background-color: #006a6f; /* Dark Tiffany Blue for button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.goal-section button:hover {
+  background-color: #0abab5; /* Tiffany Blue on hover */
+}
+
+/* Weekly Summary */
+.summary-section {
+  max-width: 600px;
+  margin: 30px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.summary-section p {
+  font-size: 16px;
+  color: #006a6f;
+}
